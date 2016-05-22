@@ -1,28 +1,24 @@
 {
-  "name": "bored",
+  "name": "tictactoe",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run tictactoe-test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jamesmcallister/bored.git"
+    "test-webpack": "webpack --config test-webpack.js",
+    "test": "npm run test-webpack && karma start karma-conf.js --single-run"
   },
   "keywords": [],
   "author": "James McAllister <james@mcallister.xyz>",
   "license": "",
-  "bugs": {
-    "url": "https://github.com/jamesmcallister/bored/issues"
-  },
-  "homepage": "https://github.com/jamesmcallister/bored#readme",
   "devDependencies": {
+    "babel": "6.5.2",
+    "chai": "3.5.0",
     "karma": "0.13.22",
     "karma-chrome-launcher": "^1.0.1",
     "karma-cli": "1.0.0",
     "karma-firefox-launcher": "^1.0.0",
     "karma-mocha": "1.0.1",
-    "mocha": "2.4.5"
+    "mocha": "2.4.5",
+    "webpack": "1.13.1"
   }
 }
