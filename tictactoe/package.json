@@ -11,7 +11,9 @@
   "author": "James McAllister <james@mcallister.xyz>",
   "license": "",
   "devDependencies": {
-    "babel": "6.5.2",
+    "babel-core": "6.9.0",
+    "babel-loader": "6.2.4",
+    "babel-preset-es2015": "6.9.0",
     "chai": "3.5.0",
     "karma": "0.13.22",
     "karma-chrome-launcher": "^1.0.1",

@@ -23,6 +23,8 @@
     "karma-cli": "1.0.0",
     "karma-firefox-launcher": "^1.0.0",
     "karma-mocha": "1.0.1",
-    "mocha": "2.4.5"
+    "karma-webpack": "1.7.0",
+    "mocha": "2.4.5",
+    "webpack": "1.13.1"
   }
 }
